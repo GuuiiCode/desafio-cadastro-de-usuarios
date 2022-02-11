@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <main class="conteudo-principal">
+        <div class="container">
+            <section class="info"> 
+                <form class="formulario">
+                    <h2>Digite os dados <br> do usuário</h2>
+                    <div class="label-input">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" >
+                    </div>
+                    <div class="label-input">
+                        <label for="idade">Idade</label>
+                        <input type="number" id="idade" name="idade">
+                    </div>
+                    <div class="label-input"> 
+                        <label for="skills">Skills</label>
+                        <input type="text" id="skills" name="skills">
+                    </div>
+                    <input type="submit" value="Cadastrar usuário">
+                    <p class="alerta"></p>
+                </form>
+            </section>
+
+            <div class="linha-central"></div>
+
+            <section class="resultado">
+                <h2 class="titulo">Resultado:</h2>
+                <div class="usuarios"></div>  
+            </section>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html> 
+
+ 

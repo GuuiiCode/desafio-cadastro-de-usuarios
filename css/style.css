@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Concert One', cursive;
+    background-color: #2F2325;
+}
+
+.conteudo-principal {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {   
+    display: flex;
+    width: 900px;
+    height: 470px;
+    background-color: #483636;
+    border: 2px solid #FFF2E7; 
+    border-radius: 10px;
+}
+
+.info { 
+    width: 450px;
+} 
+
+.formulario {
+    color: #FFF2E7; 
+    padding: 20px 50px; 
+}
+
+.formulario h2 {
+    font-size: 30px;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.label-input { 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 2.5;
+}
+
+.label-input label {
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.label-input input {  
+    height: 50px;
+    width: 250px;  
+    padding-left: 15px; 
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 8px; 
+    box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+    background-color:rgba(255, 242, 231, 0.7);
+} 
+
+.formulario input[type="submit"] { 
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px; 
+    padding: 10px 10px;
+    background-color: #FFF2E7;
+    color: #2F2325; 
+    margin: 20px 30px 0 30px;
+}
+
+.formulario input[type="submit"]:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.alerta {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+    margin-top: 15px;
+}
+ 
+.linha-central {
+    border: 1px solid #FFF2E7;
+}
+  
+.resultado {
+    width: 450px; 
+    padding: 20px 50px;  
+    color: rgba(245, 209, 109, 0.856); 
+    overflow-y: scroll; 
+}
+
+.titulo {
+    font-size: 30px; 
+    text-align: center;
+    color: #FFF2E7; 
+    margin-bottom: 65px;
+}   
+
+.usuarios {
+    font-size: 25px;
+    margin-top: 20px; 
+    line-height: 0.9;
+}
+
+.usuarios span {
+    color:rgba(164, 234, 243, 0.863);
+}
+
+.usuarios span::after {
+    content: ':';
+    color:white;
+} 
+
+.usuarios .idade::after {
+    content: ''; 
+}
+
+::-webkit-scrollbar-track{ 
+    border-radius: 5px; 
+}
+
+::-webkit-scrollbar{
+    width: 7px; 
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #f7d4b8;
+    border-radius: 5px; 
+} 
+
